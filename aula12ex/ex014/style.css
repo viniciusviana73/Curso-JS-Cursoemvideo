@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+    background-color: rgb(120, 171, 247);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 2.5em;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+div#msg {
+    padding: 13px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.6em;
+}
+
+div#foto img {
+    display: block;
+    margin: auto;
+} 
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Edu QLD Beginner', cursive;
+}

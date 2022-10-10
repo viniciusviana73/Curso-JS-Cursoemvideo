@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex. 03 JS</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        main {
+            background-color: #1a1a1a;
+        }
+
+        header {
+            height: 180px;            
+        }
+
+        header > h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            color: #7bf786;
+            padding-top: 75px;
+            text-align: center;
+            font-size: 2.7em;
+        }
+
+        section{
+            margin: 20px 70px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 3px;
+            box-shadow: 1px 1px 9px 10px #7bf78570;
+        }
+
+        section > p {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+            padding: 0px 40px;
+            text-indent: 2em;
+            margin: 15px 0px;
+        }
+
+        section > h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-size: 1.7em;
+        }
+
+        footer{
+            height: 100px;
+            padding-top: 30px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            color: #7bf786;
+            text-align: center;
+            box-shadow: 3px 20px 20px 0px #00000070;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>&lt;h1&gt; Olá, mundo! &lt;/h1&gt;</h1>
+        </header>
+        <section>
+            <h2>&lt;h2&gt; Olá, Mundo! Sou um sub-título &lt;/h2&gt;</h2>
+            <p>
+                &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis ratione laudantium quasi cum autem ab? Qui ut quibusdam dicta, harum dolorem iure quam est! Sint aspernatur fugit dolorem quisquam facere officia voluptatum sunt? Ea soluta odit aliquam exercitationem officia et, repellat porro quod numquam illo nisi facere! Ipsam commodi alias pariatur saepe eum voluptas dolor dignissimos atque magnam debitis, repudiandae voluptatibus culpa nam quia modi iure, necessitatibus tempora, eos ipsum. Accusantium maiores repellendus optio impedit nihil unde, aut magni inventore?&lt;/p&gt;
+            </p>
+            <p>
+                &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quidem corporis expedita repellendus beatae dolore impedit iure ab labore animi repellat officia omnis, eos quas. Aperiam sapiente numquam dolore pariatur.&lt;/p&gt;
+            </p>
+        </section>
+        <footer>
+            <p>Desenvolvido nas aulas do CursoemVideo.</p>
+        </footer>
+    </main>
+    <script>
+        let n1 = Number(prompt('Digite um número: '))
+        let n2 = Number(prompt('Digite outro número: '))
+        let soma = n1 + n2
+        alert(`A soma de ${n1} com ${n2} é: ${soma}.`)
+    </script>
+</body>
+</html>
