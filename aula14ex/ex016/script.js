@@ -18,7 +18,7 @@ function contar(){
                 resultado.innerHTML +=  `${inicio} \u{1F449} `
             }
         } else {
-            resultado.innerHTML +=  `${inicio}`
+            resultado.innerHTML +=  `${inicio} (Início == Fim. Passo único!) `
         }
         resultado.innerHTML += `\u{1F3C1}`
     }

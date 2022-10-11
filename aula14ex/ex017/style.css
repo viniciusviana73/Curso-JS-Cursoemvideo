@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
 body {
     background-color: rgb(120, 171, 247);
     font: normal 15pt Arial;
@@ -8,6 +12,7 @@ body {
 header {
     color: white;
     text-align: center;
+    font-family: 'Edu QLD Beginner', cursive;
 }
 
 section {
@@ -19,8 +24,28 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
+div#form {
+    text-align: center;
+}
+
+div#form input {
+    text-align: center;
+    display: block;
+    margin: 7px auto;
+}
+
+select {
+    overflow: hidden; 
+    display: none;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.3em;
+    margin: auto;
+    padding: 5px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    font-family: 'Edu QLD Beginner', cursive;
 }
